@@ -11,7 +11,7 @@ $autopiter->isDebug=true;
 $autopiter->find('107906787', 2800);
 
 /* ПОИСК НА EMEX.RU */
-$emex = new EMEX('your_login', 'k++your_password', 'your_email');
+$emex = new EMEX('your_login', 'your_password', 'your_email');
 $emex->isDebug=true;
 $emex->find('868114Y500', 2800);
 
