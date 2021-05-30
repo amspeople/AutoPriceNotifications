@@ -2,7 +2,7 @@
 
 class EMEX
 {
-    private $isDebug = false;
+    public $isDebug = false;
     protected $curl, $locationId, $authKey, $email;
 
     function __construct($login, $pass, $email = '')

@@ -3,7 +3,7 @@
 
 class Autopiter
 {
-    private $isDebug = false;
+    public $isDebug = false;
     protected $curl, $accessToken, $email;
 
     function __construct($login, $pass, $email = '')
